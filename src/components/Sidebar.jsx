@@ -32,7 +32,7 @@ const Sidebar = () => {
         </div>
         <div className="p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4 ">
           <h1>crie sua primeira playlist</h1>
-          <p className="font-light"> x</p>
+          <p className="font-light">crie suas próprias playlist</p>
           <button className="px-4 py-1.5 bg-white text-[15px] text-black rounded-e-full mt-4">
             criar playlist
           </button>
@@ -43,7 +43,7 @@ const Sidebar = () => {
             mantenha-se atualizado com novos epsodios
           </p>
           <button className="px-4 py-1.5 bg-white text-[15px] text-black rounded-e-full mt-4">
-            x
+            podcasts e progrmas
           </button>
         </div>
       </div>

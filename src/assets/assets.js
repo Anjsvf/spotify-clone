@@ -1,3 +1,4 @@
+//icons
 import bell_icon from './bell.png'
 import home_icon from './home.png'
 import like_icon from './like.png'
@@ -22,12 +23,17 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
+
+//imsgens 
 import crystal from './crystal.jpeg'
 import crystal2 from './crystal2.jpeg'
 import suicidal from './suicidal.jpeg'
-import phonks1 from './phonks1.jpeg'
+import pastelghost from './pastelghost.jpg'
 import phonks2 from './phonks2.jpeg'
+import pastelghost2 from './pastelghost2.jpg'
+import dark from './dark.jpg'
+import memory from './memory.jpg'
+import goth from './goth.jpg'
 import img2 from './img2.jpg'
 import img3 from './img3.jpg'
 import img4 from './img4.jpg'
@@ -43,10 +49,18 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+//musuicas
 import song1 from  './song1.mp3'
 import musica1 from './musica1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import esctasy from './esctasy.mp3'
+import pastel from './pastel.mp3'
+import empty from './empty.mp3'
+import iris from './iris.mp3'
+import silhouette from './silhouette.mp3'
+import voj from './voj.mp3'
+import sidewalks from './sidewalks.mp3'
 
 export const assets = {
     bell_icon,
@@ -123,66 +137,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "crystal castles",
+        name: "crime waves ",
         image: crystal,
         file:musica1,
-        desc:"crime waves",
+        desc:"crystal castles",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Receba",
+        name: "Empty",
         image: crystal2,
-        file:song2,
-        desc:"o cara da luva de pedreiro",
+        file:empty,
+        desc:"crystal castles",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Suicidal-dol",
+        name: "escstacy",
         image: suicidal,
-        file:song3,
-        desc:"nao sei nenhuma musica dele",
+        file:esctasy,
+        desc:"Suicidal-dol",
         duration:"2:32"
     },
     {
         id:3,
-        name: "alexandre de moraes",
-        image: phonks1,
-        file:song1,
-        desc:"VOU TE BANIR DO X TWEETER👿.",
+        name: "Iris slowed",
+        image: pastelghost,
+        file:iris,
+        desc:"Pastel Ghost",
         duration:"2:50"
     },
     {
         id:4,
-        name: "pedrinha de crakeerr",
-        image: phonks2,
-        file:song2,
-        desc:"musica chata do caraiiiii",
+        name: "silhouette slowed",
+        image: pastelghost2,
+        file:silhouette,
+        desc:"Pastel Ghost",
         duration:"3:10"
     },
     {
         id:5,
-        name: "musica 6",
-        image: img14    ,
-        file:song3,
-        desc:"x",
+        name: "Dark beach",
+        image: dark,
+        file:pastel,
+        desc:"Pastel Ghost",
         duration:"2:45"
     },
     {
         id:6,
-        name: "7",
-        image: img7,
-        file:song1,
-        desc:"x",
+        name: "memoory reboot slowed",
+        image: memory,
+        file:voj,
+        desc:"voj x Narvent",
         duration:"2:18"
     },
     {
         id:7,
-        name: "8",
-        image: img12,
-        file:song2,
-        desc:"x",
+        name: "goth slowed",
+        image: goth,
+        file:sidewalks,
+        desc:"sidewalks and skeletons",
         duration:"2:35"
     }
 ]
